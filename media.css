@@ -155,12 +155,6 @@
         transition-duration: 0.3s;
     }
 
-    .sec1-img {
-        display: none;
-    }
-
-    /* change img */
-
     /* section 2 */
     .h-sec2 {
         display: flex;
