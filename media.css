@@ -179,7 +179,7 @@
         border: 3px solid rgb(120, 171, 246);
         border-radius: 20px;
         padding: 10px;
-        width: 70%;
+        width: 80%;
     }
 
     .s2-icons {
@@ -201,13 +201,13 @@
     }
 
     .h-sec3 h1 {
-        font-size: 40px;
+        font-size: 20px;
         font-weight: 800;
         text-decoration: underline rgb(3, 3, 142);
     }
 
     .h-product {
-        margin-top: 70px;
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -215,27 +215,27 @@
     }
 
     .h-product img {
-        width: 70px;
-        margin-top: 35px;
+        width: 50px;
+        margin-top: 25px;
     }
 
     .card {
-        width: 50%;
-        padding: 0 60px;
+        width: 60%;
+        padding: 0 20px;
         background-color: rgb(232, 247, 250);
-        height: 300px;
+        height: 350px;
         border-radius: 30px;
         margin: 10px 0;
     }
 
     .card p {
-        font-size: 15px;
+        font-size: 13px;
         text-align: justify;
         margin-top: 10px;
     }
 
     .c1 img {
-        margin-top: 27px;
+        margin-top: 20px;
     }
 
     /* section 4 */
@@ -248,7 +248,7 @@
     }
 
     .s4-d1 {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 800;
         font-style: italic;
         width: 80%;
@@ -259,10 +259,10 @@
 
     .s4-d2 {
         margin-top: 10px;
-        width: 70%;
-        font-size: 15px;
+        width: 80%;
+        font-size: 10px;
         text-align: justify;
-        line-height: 23px;
+        line-height: 20px;
     }
 
     /* footer */
@@ -306,8 +306,8 @@
     } */
 
     .d2 {
-        width: 250px;
-        font-size: 18px;
+        width: 300px;
+        font-size: 15px;
         display: flex;
         flex-direction: column;
         justify-content: center;
