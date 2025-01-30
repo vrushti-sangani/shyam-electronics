@@ -147,29 +147,37 @@
         text-decoration: none;
         color: white;
     }
-
-    .h-btn:hover {
-        width: 41%;
-        font-size: 23px;
-        padding: 12px;
-        transition-duration: 0.3s;
+    .s-1{
+        width:400px;
     }
+    .s-2{
+        height:250px;
+    }
+    .s-3{
+        height:250px;
+    }
+    .s-4{
+        height:250px;
+    }
+    .s-5{
+        width:500px;
+    }
+
+    /* change img */
 
     /* section 2 */
     .h-sec2 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 150px 7%;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 100px 3%;
         border: 3px solid rgb(120, 171, 246);
         border-radius: 20px;
-        padding: 30px;
+        padding: 10px;
+        width: 50%;
     }
 
     .s2-icons {
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
+        padding: 20px;
         align-items: center;
     }
 
