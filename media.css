@@ -26,7 +26,6 @@
         top: 0px;
         right: 0px;
         left: 0px;
-        /* width: 85%; */
     }
 
     /* drop down menu */
@@ -381,16 +380,15 @@
     }
 
     .s-c1 h5 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         padding: 5px;
         font-size: 7px;
     }
 
     /* section2 */
-    .s-sec2 {
-        display: flex;
-        justify-content: space-between;
-    }
-
     .left-s2 {
         display: none;
     }
@@ -400,7 +398,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 90%;
+        width: 80%;
         text-align: center;
     }
 
@@ -415,7 +413,7 @@
         margin-left: 20px;
         margin-right: 20px;
         display: grid;
-        grid-template-columns: 30% 30%;
+        grid-template-columns: auto auto;
     }
 
     .right-s2 button {
@@ -436,12 +434,12 @@
     }
 
     .right-s2 p {
-        font-size: 7px;
-        margin-top: 20px;
-        width: 40%;
-        line-height: 30px;
+        font-size: 12px;
+        margin-top: 15px;
+        width: 60%;
+        line-height: 20px;
         text-align: justify;
-        padding: 10px;
+        padding: 7px;
     }
 
     .part2 {
@@ -452,20 +450,20 @@
         margin-top: 70px;
         border: 1px solid #01358d;
         border-radius: 20px;
-        margin-right: 10%;
+        /* margin-right: 30px; */
     }
 
     .p2-span {
-        font-size: 15px;
+        font-size: 20px;
         font-style: italic;
         font-weight: 900;
     }
 
     .right-s2 ul {
         text-align: start;
-        font-size: 7px;
-        line-height: 30px;
-        width: 40%;
+        font-size: 12px;
+        line-height: 20px;
+        width: 60%;
         text-align: justify;
     }
 
