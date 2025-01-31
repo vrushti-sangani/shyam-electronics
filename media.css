@@ -419,13 +419,15 @@
     }
 
     .right-s2 button {
-        width: 80%;
+        width: 75%;
         border: none;
         background-color: #ee2852;
         padding: 10px;
         border-radius: 15px;
         margin-top: 50px;
-        margin-left: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .right-s2 a {
@@ -461,6 +463,7 @@
     }
 
     .right-s2 ul {
+        padding: 10px;
         text-align: start;
         font-size: 15px;
         width: 80%;
