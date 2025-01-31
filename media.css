@@ -345,16 +345,17 @@
 
     /* shop page */
     .s-sec1 {
-        margin: 200px 100px 7%;
+        margin: 150px 90px 5%;
 
     }
 
     .s-sec1 p {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .shop-c {
         display: flex;
+        gap: 7px;
         justify-content: space-between;
         align-items: center;
     }
@@ -364,19 +365,19 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 230px;
-        height: 150px;
+        width: 200px;
+        height: 120px;
         background-color: #fde4f7;
-        border-radius: 30px;
+        border-radius: 15px;
         margin-top: 20px;
     }
 
     .s-c1 img {
-        width: 80px;
+        width: 50px;
     }
 
     .s-c1 h5 {
-        font-size: 18px;
+        font-size: 12px;
     }
 
     /* section2 */
@@ -387,10 +388,13 @@
 
     .left-s2 {
         height: 100%;
-        width: 17%;
+        width: 20%;
         background-color: rgb(234, 253, 253);
         margin-left: 10px;
-        padding: 30px;
+        padding: 12px;
+    }
+    .left-s2 h3{
+        font-size: 20px;
     }
 
     .freeze,
@@ -400,18 +404,19 @@
     .acs {
         border: #01358d solid 2px;
         border-radius: 20px;
-        padding: 30px;
+        padding: 15px;
         margin-top: 60px;
     }
 
     .left-s2 h3 {
-        padding: 20px;
+        font-size: 15px;
+        padding: 5px;
         text-decoration: underline 3px rgb(0, 157, 255);
     }
 
     .left-s2 p {
         padding: 5px;
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .right-s2 {
