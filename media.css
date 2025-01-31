@@ -356,7 +356,7 @@
     .shop-c {
         display: flex;
         gap: 7px;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
 
@@ -365,7 +365,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 200px;
+        width: 400px;
         height: 120px;
         background-color: #fde4f7;
         border-radius: 15px;
@@ -377,7 +377,7 @@
     }
 
     .s-c1 h5 {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     /* section2 */
@@ -387,40 +387,11 @@
     }
 
     .left-s2 {
-        height: 100%;
-        width: 20%;
-        background-color: rgb(234, 253, 253);
-        margin-left: 10px;
-        padding: 12px;
+        display: none;
     }
-    .left-s2 h3{
-        font-size: 20px;
-    }
-
-    .freeze,
-    .mill,
-    .wash,
-    .tvs,
-    .acs {
-        border: #01358d solid 2px;
-        border-radius: 20px;
-        padding: 15px;
-        margin-top: 60px;
-    }
-
-    .left-s2 h3 {
-        font-size: 15px;
-        padding: 5px;
-        text-decoration: underline 3px rgb(0, 157, 255);
-    }
-
-    .left-s2 p {
-        padding: 5px;
-        font-size: 12px;
-    }
-
+    
     .right-s2 {
-        width: 75%;
+        width: 80%;
         text-align: center;
     }
 
@@ -429,10 +400,8 @@
     }
 
     .f-img {
-        margin-top: 80px;
-        display: flex;
-        gap: 50px;
-        margin-left: 30px;
+        display: grid;
+        grid-template-columns: auto auto;
     }
 
     .right-s2 button {
@@ -441,7 +410,9 @@
         padding: 10px;
         border-radius: 15px;
         margin-top: 50px;
-        margin-right: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .right-s2 a {
