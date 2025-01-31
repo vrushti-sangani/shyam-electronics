@@ -3,7 +3,7 @@
     body {
         margin: 0;
         padding: 0;
-        width: 85%;
+        width: 100%;
     }
 
     .nav {
@@ -152,7 +152,7 @@
     }
 
     .h-btn {
-        width: 50%;
+        width: 60%;
         margin-top: 20px;
         padding: 10px;
         font-size: 20px;
@@ -179,7 +179,7 @@
         border: 3px solid rgb(120, 171, 246);
         border-radius: 20px;
         padding: 10px;
-        width: 80%;
+        width: 100%;
     }
 
     .s2-icons {
@@ -201,7 +201,7 @@
     }
 
     .h-sec3 h1 {
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 800;
         text-decoration: underline rgb(3, 3, 142);
     }
@@ -220,10 +220,10 @@
     }
 
     .card {
-        width: 60%;
+        width: 75%;
         padding: 0 20px;
         background-color: rgb(232, 247, 250);
-        height: 350px;
+        height: 300px;
         border-radius: 30px;
         margin: 10px 0;
     }
@@ -266,6 +266,9 @@
     }
 
     /* footer */
+    .footer{
+        width: 100%;
+    }
     .foot1 {
         display: flex;
         flex-direction: column;
@@ -300,13 +303,8 @@
         color: #011a46;
         margin-top: 10px;
     }
-
-    /* h2 {
-        text-align: center;
-    } */
-
     .d2 {
-        width: 300px;
+        width: 250px;
         font-size: 15px;
         display: flex;
         flex-direction: column;
