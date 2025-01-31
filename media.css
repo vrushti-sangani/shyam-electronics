@@ -345,7 +345,7 @@
 
     /* shop page */
     .s-sec1 {
-        margin: 150px 90px 5%;
+        margin: 200px 150px 2%;
 
     }
 
@@ -365,7 +365,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 400px;
+        width: 600px;
         height: 120px;
         background-color: #fde4f7;
         border-radius: 15px;
@@ -373,11 +373,11 @@
     }
 
     .s-c1 img {
-        width: 50px;
+        width: 40px;
     }
 
     .s-c1 h5 {
-        font-size: 10px;
+        font-size: 7px;
     }
 
     /* section2 */
@@ -391,17 +391,24 @@
     }
     
     .right-s2 {
-        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
         text-align: center;
     }
 
     .right-s2 h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 30px;
     }
 
     .f-img {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 35% 35%;
     }
 
     .right-s2 button {
