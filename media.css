@@ -414,8 +414,8 @@
         justify-content: center;
         align-items: center;
     }
-    .f1{
-        display: none;
+    .f1img{
+        display: none !important;
     }
 
     .right-s2 button {
@@ -448,6 +448,7 @@
         align-items: center;
         margin-top: 70px;
         margin-left: 30px;
+        width: 80%;
         border: 1px solid #01358d;
         border-radius: 20px;
     }
