@@ -21,18 +21,12 @@
         color: rgb(192, 203, 239);
     }
 
-    .nav a:hover {
-        font-weight: 700;
-        color: rgb(239, 239, 244);
-        padding: 15px;
-    }
-
     .sticky {
         position: fixed;
         top: 0px;
         right: 0px;
         left: 0px;
-        width: 85%;
+        /* width: 85%; */
     }
 
     /* drop down menu */
@@ -140,7 +134,7 @@
     }
 
     .text1 {
-        font-size: 25px;
+        font-size: 20px;
         width: 70%;
         margin-top: 30px;
         font-weight: 700;
@@ -148,7 +142,7 @@
 
     .t1-p {
         color: #ca6638;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .h-btn {
@@ -229,9 +223,10 @@
     }
 
     .card p {
-        font-size: 13px;
+        font-size: 15px;
         text-align: justify;
         margin-top: 10px;
+        padding: 0 10px;
     }
 
     .c1 img {
