@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart SHYAM ELECTRONICS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="addtocart.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <header class=" sticky">
+        <div class="header-nav">
+            <div class="logo">
+                <img src="logo1.png" alt="logo" width="150px">
+            </div>
+            <div class="link">
+                <a href="index.html">HOME</a>
+                <a href="shop.html">SHOP</a>
+                <div class="dropdown">
+                    <a href="product.html" class="dropbtn">PRODUCT</a>
+                    <div class="dropdown-content">
+                        <a href="ref.html">REFRIGERATORs</a>
+                        <a href="ac.html">ACs</a>
+                        <a href="tv.html">TVs</a>
+                        <a href="wash.html">WASHING MACHINEs</a>
+                        <a href="flour.html">FLOUR MILLs</a>
+                    </div>
+                </div>
+                <a href="feature.html">FEATURE</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+
+    <h1 class="store-cart">Electronics Store</h1>
+
+
+    <h2 style="text-align: center;font-size: 30px; font-style: italic;">Shopping Cart</h2>
+    <div id="cart">
+        <ul id="cart-items"></ul>
+        <p class="total">Total: ₹<span id="total-price">0</span></p>
+    </div>
+
+    <script>
+        // Function to display cart items
+        function displayCartItems() {
+            const cartContainer = document.getElementById('cart-items');
+            cartContainer.innerHTML = ''; // Clear previous items
+            const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+            let totalPrice = 0;
+
+            if (cartItems.length === 0) {
+                cartContainer.innerHTML = '<p>Your cart is empty.</p>';
+                return;
+            }
+
+            cartItems.forEach((item, index) => {
+                const itemDiv = document.createElement('div');
+                itemDiv.classList.add('cart-item');
+                itemDiv.innerHTML = `
+        <img src="${item.image}" alt="${item.name}">
+            <h4 class="c-name">${item.name}</h4>
+            <div  class="cart-p1">
+                <div><p class="c-price">Price: ₹${item.price}</p>
+            <p class="c-qua">Quantity: ${item.quantity}</p>
+            <p class="c-total">Total: ₹${item.price * item.quantity}</p></div>
+            <div><button onclick="removeFromCart(${index})"><i class="fa-solid fa-trash"></i></button></div></div>
+        `;
+                cartContainer.appendChild(itemDiv);
+                totalPrice += item.price * item.quantity;
+            });
+
+            document.getElementById('total-price').innerText = totalPrice;
+        }
+
+        // Function to remove an item from the cart
+        function removeFromCart(index) {
+            const cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+            cartItems.splice(index, 1); // Remove the item at the specified index
+            localStorage.setItem('cartItems', JSON.stringify(cartItems)); // Update local storage
+            displayCartItems(); // Refresh the cart display
+        }
+
+        displayCartItems();
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
